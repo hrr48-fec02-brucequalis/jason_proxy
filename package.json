@@ -1,0 +1,28 @@
+{
+  "name": "jason_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Proxy/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr48-fec02-brucequalis/jason_proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr48-fec02-brucequalis/jason_proxy/issues"
+  },
+  "homepage": "https://github.com/hrr48-fec02-brucequalis/jason_proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "http-proxy-middleware": "^1.0.5",
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.4"
+  }
+}
